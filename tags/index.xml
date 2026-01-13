@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Michael Johnson</title>
+    <link>https://ahze.net/tags/</link>
+    <description>Recent content in Tags on Michael Johnson</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
+    <atom:link href="https://ahze.net/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daemonless</title>
+      <link>https://ahze.net/tags/daemonless/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/daemonless/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Freebsd</title>
+      <link>https://ahze.net/tags/freebsd/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>https://ahze.net/tags/projects/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/projects/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://ahze.net/tags/hugo/</link>
+      <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>https://ahze.net/tags/personal/</link>
+      <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/personal/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

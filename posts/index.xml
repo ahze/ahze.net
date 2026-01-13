@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Michael Johnson</title>
+    <link>https://ahze.net/posts/</link>
+    <description>Recent content in Posts on Michael Johnson</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
+    <atom:link href="https://ahze.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why I Built Daemonless</title>
+      <link>https://ahze.net/posts/why-i-built-daemonless/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>https://ahze.net/posts/why-i-built-daemonless/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been a FreeBSD user since the late 90s. From 2002 to 2010, I was a ports committer working on the GNOME and Multimedia teams. &lt;strong&gt;I have always felt more &amp;ldquo;at home&amp;rdquo; with FreeBSD.&lt;/strong&gt; There is a logic and cohesiveness to the Base System + Ports approach that just clicks for me in a way Linux distros often don&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;But the world changed. The OCI (Docker) container workflow took over, and for good reason: immutable infrastructure and easy updates are incredible for sanity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Back on the Net</title>
+      <link>https://ahze.net/posts/back-on-the-net/</link>
+      <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
+      <guid>https://ahze.net/posts/back-on-the-net/</guid>
+      <description>&lt;p&gt;I have owned &lt;strong&gt;ahze.net&lt;/strong&gt; for a very long time.&lt;/p&gt;
+&lt;p&gt;For most of that time, this domain has been a quiet corner of the internet—mostly used for internal lab services, mail, or just sitting idle. I&amp;rsquo;ve rarely had anything public-facing or inviting for the outside world to see.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m changing that today.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve decided to start documenting my projects, my experiments with FreeBSD, and the growth of the &lt;strong&gt;Daemonless&lt;/strong&gt; ecosystem here. This site is currently running inside a Daemonless Hugo container on my own infrastructure, which feels like the right way to kick things off.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
