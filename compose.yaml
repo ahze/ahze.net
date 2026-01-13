@@ -1,0 +1,14 @@
+services:
+  blog:
+    image: localhost/hugo:latest
+    container_name: ahze-blog
+    environment:
+      - PUID=1001
+      - PGID=1001
+      - TZ=UTC
+      - HUGO_BASEURL=http://saturn:8833
+    ports:
+      - "8833:1313"
+    volumes:
+      - .:/app
+    restart: unless-stopped

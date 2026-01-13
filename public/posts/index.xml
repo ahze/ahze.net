@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Michael Johnson</title>
+    <link>http://saturn:8833/posts/</link>
+    <description>Recent content in Posts on Michael Johnson</description>
+    <generator>Hugo -- 0.154.5</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 12:00:00 -0500</lastBuildDate>
+    <atom:link href="http://saturn:8833/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello World</title>
+      <link>http://saturn:8833/posts/hello-world/</link>
+      <pubDate>Tue, 13 Jan 2026 12:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/posts/hello-world/</guid>
+      <description>&lt;h1 id=&#34;welcome&#34;&gt;Welcome&lt;/h1&gt;
+&lt;p&gt;This is the start of my new personal site, built with &lt;strong&gt;Hugo&lt;/strong&gt; and hosted on my own &lt;strong&gt;Daemonless&lt;/strong&gt; infrastructure (running on &lt;code&gt;pibox&lt;/code&gt;!).&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll be posting updates about the Daemonless project, FreeBSD tips, and my homelab experiments here.&lt;/p&gt;
+&lt;p&gt;Stay tuned!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

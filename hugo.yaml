@@ -1,0 +1,63 @@
+baseURL: https://ahze.net/
+languageCode: en-us
+title: Michael Johnson
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: Michael Johnson
+  description: "Systems Engineer, FreeBSD Enthusiast, Creator of Daemonless."
+  author: Michael Johnson
+  
+  # PaperMod specific
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: >
+      Welcome to my personal site. I am a Systems Engineer and FreeBSD enthusiast.
+      
+      I created the **Daemonless** project to bring the ease of Docker to FreeBSD Jails.
+      Here I write about infrastructure, automation, and my homelab journey.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/ahze"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/ahze/"
+    - name: bluesky
+      url: "https://bsky.app/profile/ahze.net"
+    - name: globe
+      url: "https://daemonless.io"
+      title: "Daemonless Project"
+
+menu:
+  main:
+    - name: Blog
+      url: /posts/
+      weight: 1
+    - name: Projects
+      url: /projects/
+      weight: 2
+    - name: Archive
+      url: /archives/
+      weight: 3
+    - name: Search
+      url: /search/
+      weight: 4
+    - name: Tags
+      url: /tags/
+      weight: 5

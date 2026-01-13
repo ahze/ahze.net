@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://saturn:8833/sitemap.xml
