@@ -2,6 +2,10 @@ baseURL: https://ahze.net/
 languageCode: en-us
 title: Michael Johnson
 theme: PaperMod
+googleAnalytics: "G-754NR07DFL"
+
+pagination:
+  pagerSize: 10
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -12,6 +16,11 @@ minify:
   disableXML: true
   minifyOutput: true
 
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 outputs:
   home:
     - HTML
@@ -21,23 +30,37 @@ outputs:
 params:
   env: production
   title: Michael Johnson
-  description: "Systems Engineer, FreeBSD Enthusiast, Creator of Daemonless."
+  description: "Technical Program Manager, FreeBSD Enthusiast, Creator of Daemonless."
   author: Michael Johnson
   
   # PaperMod specific
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: false
-  ShowPostNavLinks: false
+  ShowPostNavLinks: true
+  ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
   
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.png"
+    favicon32x32: "/favicon-32x32.png"
+    apple_touch_icon: "/apple-touch-icon.png"
+
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
+    Title: "Hi there 👋"
     Content: >
-      Welcome to my personal site. I am a Systems Engineer and FreeBSD enthusiast.
+      <img src="/images/profile.jpg" width="120" height="120" style="border-radius: 50%; margin-bottom: 20px;">
+      
+      Welcome to my personal site. I am a **Technical Program Manager** and FreeBSD enthusiast.
       
       I created the **Daemonless** project to bring the ease of Docker to FreeBSD Jails.
       Here I write about infrastructure, automation, and my homelab journey.
+
+  images: ["/images/profile.jpg"]
+
+  ShowToc: false
+  TocOpen: false
 
   socialIcons:
     - name: github
@@ -46,24 +69,37 @@ params:
       url: "https://www.linkedin.com/in/ahze/"
     - name: bluesky
       url: "https://bsky.app/profile/ahze.net"
+    - name: goodreads
+      url: "https://www.goodreads.com/review/list/98603495?ref=nav_mybooks"
     - name: globe
       url: "https://daemonless.io"
       title: "Daemonless Project"
 
+  analytics:
+    google:
+      SiteVerificationTag: "G-XXXXXXXXXX"
+
+
 menu:
   main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Now
+      url: /now/
+      weight: 2
     - name: Blog
       url: /posts/
-      weight: 1
+      weight: 3
     - name: Projects
       url: /projects/
-      weight: 2
+      weight: 4
     - name: Archive
       url: /archives/
-      weight: 3
+      weight: 5
     - name: Search
       url: /search/
-      weight: 4
+      weight: 6
     - name: Tags
       url: /tags/
-      weight: 5
+      weight: 7
