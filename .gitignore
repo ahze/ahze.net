@@ -1,0 +1,11 @@
+# Hugo artifacts
+public/
+resources/
+.hugo_build.lock
+
+# OS files
+.DS_Store
+.history
+
+# Local build artifacts
+/scripts/build.sh
