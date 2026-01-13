@@ -3,6 +3,7 @@ title: "Why I Built Daemonless"
 date: 2026-01-13T16:00:00-05:00
 draft: false
 tags: ["daemonless", "freebsd", "projects"]
+categories: ["Technical", "Daemonless"]
 ---
 
 I've been a FreeBSD user since the late 90s. From 2002 to 2010, I was a ports committer working on the GNOME and Multimedia teams. **I have always felt more "at home" with FreeBSD.** There is a logic and cohesiveness to the Base System + Ports approach that just clicks for me in a way Linux distros often don't.

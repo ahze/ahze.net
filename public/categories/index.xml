@@ -4,8 +4,49 @@
     <title>Categories on Michael Johnson</title>
     <link>http://saturn:8833/categories/</link>
     <description>Recent content in Categories on Michael Johnson</description>
+    <image>
+      <title>Michael Johnson</title>
+      <url>http://saturn:8833/images/profile.jpg</url>
+      <link>http://saturn:8833/images/profile.jpg</link>
+    </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
     <atom:link href="http://saturn:8833/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daemonless</title>
+      <link>http://saturn:8833/categories/daemonless/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/categories/daemonless/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>http://saturn:8833/categories/technical/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/categories/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>http://saturn:8833/categories/personal/</link>
+      <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/categories/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>http://saturn:8833/categories/homelab/</link>
+      <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/categories/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>http://saturn:8833/categories/opinion/</link>
+      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/categories/opinion/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

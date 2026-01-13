@@ -4,6 +4,11 @@
     <title>Tags on Michael Johnson</title>
     <link>http://saturn:8833/tags/</link>
     <description>Recent content in Tags on Michael Johnson</description>
+    <image>
+      <title>Michael Johnson</title>
+      <url>http://saturn:8833/images/profile.jpg</url>
+      <link>http://saturn:8833/images/profile.jpg</link>
+    </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
@@ -41,6 +46,34 @@
       <link>http://saturn:8833/tags/personal/</link>
       <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
       <guid>http://saturn:8833/tags/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>http://saturn:8833/tags/homelab/</link>
+      <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>http://saturn:8833/tags/infrastructure/</link>
+      <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>http://saturn:8833/tags/opinion/</link>
+      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Os</title>
+      <link>http://saturn:8833/tags/os/</link>
+      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/tags/os/</guid>
       <description></description>
     </item>
   </channel>

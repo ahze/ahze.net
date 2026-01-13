@@ -4,6 +4,11 @@
     <title>Hugo on Michael Johnson</title>
     <link>http://saturn:8833/tags/hugo/</link>
     <description>Recent content in Hugo on Michael Johnson</description>
+    <image>
+      <title>Michael Johnson</title>
+      <url>http://saturn:8833/images/profile.jpg</url>
+      <link>http://saturn:8833/images/profile.jpg</link>
+    </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 15:00:00 -0500</lastBuildDate>

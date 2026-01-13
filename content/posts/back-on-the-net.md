@@ -3,6 +3,7 @@ title: "Back on the Net"
 date: 2026-01-13T15:00:00-05:00
 draft: false
 tags: ["personal", "hugo", "daemonless"]
+categories: ["Personal"]
 ---
 
 I have owned **ahze.net** for a very long time.

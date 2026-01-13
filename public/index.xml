@@ -4,6 +4,11 @@
     <title>Michael Johnson</title>
     <link>http://saturn:8833/</link>
     <description>Recent content on Michael Johnson</description>
+    <image>
+      <title>Michael Johnson</title>
+      <url>http://saturn:8833/images/profile.jpg</url>
+      <link>http://saturn:8833/images/profile.jpg</link>
+    </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
@@ -25,6 +30,62 @@
 &lt;p&gt;For most of that time, this domain has been a quiet corner of the internet—mostly used for internal lab services, mail, or just sitting idle. I&amp;rsquo;ve rarely had anything public-facing or inviting for the outside world to see.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I&amp;rsquo;m changing that today.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve decided to start documenting my projects, my experiments with FreeBSD, and the growth of the &lt;strong&gt;Daemonless&lt;/strong&gt; ecosystem here. This site is currently running inside a Daemonless Hugo container on my own infrastructure, which feels like the right way to kick things off.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Homelab Architecture</title>
+      <link>http://saturn:8833/posts/homelab-architecture/</link>
+      <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/posts/homelab-architecture/</guid>
+      <description>&lt;p&gt;My homelab has evolved significantly over the years. Currently, it&amp;rsquo;s a mix of heavy iron and efficient ARM devices, all orchestrated with Ansible.&lt;/p&gt;
+&lt;h2 id=&#34;the-fleet&#34;&gt;The Fleet&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       WAN
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [OPNsense]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   ┌────┴─────┐
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   │          │
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Saturn]   [Jupiter]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(CI/CD)    (Media)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   │          │
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   └────┬─────┘
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     [Mars]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (Storage)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Mars (TrueNAS):&lt;/strong&gt; The primary storage engine. Bulk ZFS datasets, backups, and media library.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saturn (FreeBSD 15):&lt;/strong&gt; The CI/CD Core. Runs Gitea, Woodpecker, and DNS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Jupiter (FreeBSD 15):&lt;/strong&gt; The heavy lifter. Runs local storage and media services.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;OPNsense:&lt;/strong&gt; The perimeter. Handling the network, firewall rules, and VLANs.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pluto (FreeBSD 14):&lt;/strong&gt; My dedicated test box.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sunshine (Synology DS418):&lt;/strong&gt; Secondary backup server to Mars.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Venus (Linux/Fedora):&lt;/strong&gt; For the few things that absolutely refuse to run on FreeBSD (yet).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PiAware:&lt;/strong&gt; ADS-B flight tracker (built following &lt;a href=&#34;https://www.flightaware.com/adsb/piaware/build/&#34;&gt;this guide&lt;/a&gt;).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Pibox (Linux/ARM64):&lt;/strong&gt; My low-power, always-on utility box.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Everything is managed via &lt;strong&gt;Ansible&lt;/strong&gt; stored in a private Gitea repo. Secrets are vaulted. Deployment is a single playbook run.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>FreeBSD vs Linux: My Take</title>
+      <link>http://saturn:8833/posts/freebsd-vs-linux/</link>
+      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>http://saturn:8833/posts/freebsd-vs-linux/</guid>
+      <description>&lt;p&gt;I use both. I like both. But they feel very different.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt; feels like a bazaar. You grab a kernel here, a package manager there, a init system from over there (usually systemd these days), and stitch it together. It&amp;rsquo;s powerful, chaotic, and moves fast.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;FreeBSD&lt;/strong&gt; feels like a cathedral (to borrow the classic metaphor). The OS is a complete, cohesive unit. The kernel and userland are developed together. &lt;code&gt;ifconfig&lt;/code&gt; works the same way it did 20 years ago. ZFS is a first-class citizen, not an external module.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://saturn:8833/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://saturn:8833/about/</guid>
+      <description>about</description>
+    </item>
+    <item>
+      <title>Now</title>
+      <link>http://saturn:8833/now/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://saturn:8833/now/</guid>
+      <description>what I&amp;rsquo;m doing now</description>
     </item>
     <item>
       <title>Projects</title>
