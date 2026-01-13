@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ahze.net/categories/</loc>
+    <lastmod>2026-01-13T16:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/categories/daemonless/</loc>
+    <lastmod>2026-01-13T16:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://ahze.net/tags/daemonless/</loc>
     <lastmod>2026-01-13T16:00:00-05:00</lastmod>
   </url><url>
@@ -20,6 +26,9 @@
     <loc>https://ahze.net/tags/</loc>
     <lastmod>2026-01-13T16:00:00-05:00</lastmod>
   </url><url>
+    <loc>https://ahze.net/categories/technical/</loc>
+    <lastmod>2026-01-13T16:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://ahze.net/posts/why-i-built-daemonless/</loc>
     <lastmod>2026-01-13T16:00:00-05:00</lastmod>
   </url><url>
@@ -29,12 +38,41 @@
     <loc>https://ahze.net/tags/hugo/</loc>
     <lastmod>2026-01-13T15:00:00-05:00</lastmod>
   </url><url>
+    <loc>https://ahze.net/categories/personal/</loc>
+    <lastmod>2026-01-13T15:00:00-05:00</lastmod>
+  </url><url>
     <loc>https://ahze.net/tags/personal/</loc>
     <lastmod>2026-01-13T15:00:00-05:00</lastmod>
   </url><url>
+    <loc>https://ahze.net/categories/homelab/</loc>
+    <lastmod>2026-01-12T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/tags/homelab/</loc>
+    <lastmod>2026-01-12T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/tags/infrastructure/</loc>
+    <lastmod>2026-01-12T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/posts/homelab-architecture/</loc>
+    <lastmod>2026-01-12T10:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/posts/freebsd-vs-linux/</loc>
+    <lastmod>2026-01-11T09:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/categories/opinion/</loc>
+    <lastmod>2026-01-11T09:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/tags/opinion/</loc>
+    <lastmod>2026-01-11T09:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/tags/os/</loc>
+    <lastmod>2026-01-11T09:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://ahze.net/about/</loc>
+  </url><url>
     <loc>https://ahze.net/archives/</loc>
   </url><url>
-    <loc>https://ahze.net/categories/</loc>
+    <loc>https://ahze.net/now/</loc>
   </url><url>
     <loc>https://ahze.net/projects/</loc>
   </url><url>

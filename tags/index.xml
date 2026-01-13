@@ -48,5 +48,33 @@
       <guid>https://ahze.net/tags/personal/</guid>
       <description></description>
     </item>
+    <item>
+      <title>Homelab</title>
+      <link>https://ahze.net/tags/homelab/</link>
+      <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Infrastructure</title>
+      <link>https://ahze.net/tags/infrastructure/</link>
+      <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/infrastructure/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>https://ahze.net/tags/opinion/</link>
+      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/opinion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Os</title>
+      <link>https://ahze.net/tags/os/</link>
+      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>https://ahze.net/tags/os/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

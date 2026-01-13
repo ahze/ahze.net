@@ -11,6 +11,42 @@
     </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
+    <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
     <atom:link href="https://ahze.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daemonless</title>
+      <link>https://ahze.net/categories/daemonless/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>https://ahze.net/categories/daemonless/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Technical</title>
+      <link>https://ahze.net/categories/technical/</link>
+      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
+      <guid>https://ahze.net/categories/technical/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Personal</title>
+      <link>https://ahze.net/categories/personal/</link>
+      <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
+      <guid>https://ahze.net/categories/personal/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Homelab</title>
+      <link>https://ahze.net/categories/homelab/</link>
+      <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
+      <guid>https://ahze.net/categories/homelab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Opinion</title>
+      <link>https://ahze.net/categories/opinion/</link>
+      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
+      <guid>https://ahze.net/categories/opinion/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

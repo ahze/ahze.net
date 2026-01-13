@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Michael Johnson</title>
-    <link>https://ahze.net/</link>
-    <description>Recent content on Michael Johnson</description>
+    <title>Homelab on Michael Johnson</title>
+    <link>https://ahze.net/tags/homelab/</link>
+    <description>Recent content in Homelab on Michael Johnson</description>
     <image>
       <title>Michael Johnson</title>
       <url>https://ahze.net/images/profile.jpg</url>
@@ -11,26 +11,8 @@
     </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
-    <atom:link href="https://ahze.net/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Why I Built Daemonless</title>
-      <link>https://ahze.net/posts/why-i-built-daemonless/</link>
-      <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
-      <guid>https://ahze.net/posts/why-i-built-daemonless/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve been a FreeBSD user since the late 90s. From 2002 to 2010, I was a ports committer working on the GNOME and Multimedia teams. &lt;strong&gt;I have always felt more &amp;ldquo;at home&amp;rdquo; with FreeBSD.&lt;/strong&gt; There is a logic and cohesiveness to the Base System + Ports approach that just clicks for me in a way Linux distros often don&amp;rsquo;t.&lt;/p&gt;
-&lt;p&gt;But the world changed. The OCI (Docker) container workflow took over, and for good reason: immutable infrastructure and easy updates are incredible for sanity.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Back on the Net</title>
-      <link>https://ahze.net/posts/back-on-the-net/</link>
-      <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
-      <guid>https://ahze.net/posts/back-on-the-net/</guid>
-      <description>&lt;p&gt;I have owned &lt;strong&gt;ahze.net&lt;/strong&gt; for a very long time.&lt;/p&gt;
-&lt;p&gt;For most of that time, this domain has been a quiet corner of the internet—mostly used for internal lab services, mail, or just sitting idle. I&amp;rsquo;ve rarely had anything public-facing or inviting for the outside world to see.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;I&amp;rsquo;m changing that today.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;ve decided to start documenting my projects, my experiments with FreeBSD, and the growth of the &lt;strong&gt;Daemonless&lt;/strong&gt; ecosystem here. This site is currently running inside a Daemonless Hugo container on my own infrastructure, which feels like the right way to kick things off.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Mon, 12 Jan 2026 10:00:00 -0500</lastBuildDate>
+    <atom:link href="https://ahze.net/tags/homelab/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Homelab Architecture</title>
       <link>https://ahze.net/posts/homelab-architecture/</link>
@@ -63,36 +45,6 @@
 &lt;li&gt;&lt;strong&gt;Pibox (Linux/ARM64):&lt;/strong&gt; My low-power, always-on utility box.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Everything is managed via &lt;strong&gt;Ansible&lt;/strong&gt; stored in a private Gitea repo. Secrets are vaulted. Deployment is a single playbook run.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>FreeBSD vs Linux: My Take</title>
-      <link>https://ahze.net/posts/freebsd-vs-linux/</link>
-      <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
-      <guid>https://ahze.net/posts/freebsd-vs-linux/</guid>
-      <description>&lt;p&gt;I use both. I like both. But they feel very different.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Linux&lt;/strong&gt; feels like a bazaar. You grab a kernel here, a package manager there, a init system from over there (usually systemd these days), and stitch it together. It&amp;rsquo;s powerful, chaotic, and moves fast.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;FreeBSD&lt;/strong&gt; feels like a cathedral (to borrow the classic metaphor). The OS is a complete, cohesive unit. The kernel and userland are developed together. &lt;code&gt;ifconfig&lt;/code&gt; works the same way it did 20 years ago. ZFS is a first-class citizen, not an external module.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>About</title>
-      <link>https://ahze.net/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ahze.net/about/</guid>
-      <description>about</description>
-    </item>
-    <item>
-      <title>Now</title>
-      <link>https://ahze.net/now/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ahze.net/now/</guid>
-      <description>what I&amp;rsquo;m doing now</description>
-    </item>
-    <item>
-      <title>Projects</title>
-      <link>https://ahze.net/projects/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ahze.net/projects/</guid>
-      <description>projects</description>
     </item>
   </channel>
 </rss>
