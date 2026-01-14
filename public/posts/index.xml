@@ -38,20 +38,7 @@
       <guid>http://saturn:8833/posts/homelab-architecture/</guid>
       <description>&lt;p&gt;My homelab has evolved significantly over the years. Currently, it&amp;rsquo;s a mix of heavy iron and efficient ARM devices, all orchestrated with Ansible.&lt;/p&gt;
 &lt;h2 id=&#34;the-fleet&#34;&gt;The Fleet&lt;/h2&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;       WAN
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [OPNsense]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   ┌────┴─────┐
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   │          │
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[Saturn]   [Jupiter]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;(CI/CD)    (Media)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   │          │
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;   └────┬─────┘
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;        │
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;     [Mars]
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    (Storage)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;
+&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Mars (TrueNAS):&lt;/strong&gt; The primary storage engine. Bulk ZFS datasets, backups, and media library.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Saturn (FreeBSD 15):&lt;/strong&gt; The CI/CD Core. Runs Gitea, Woodpecker, and DNS.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Jupiter (FreeBSD 15):&lt;/strong&gt; The heavy lifter. Runs local storage and media services.&lt;/li&gt;

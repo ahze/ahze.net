@@ -10,22 +10,6 @@ My homelab has evolved significantly over the years. Currently, it's a mix of he
 
 ## The Fleet
 
-```text
-       WAN
-        │
-    [OPNsense]
-        │
-   ┌────┴─────┐
-   │          │
-[Saturn]   [Jupiter]
-(CI/CD)    (Media)
-   │          │
-   └────┬─────┘
-        │
-     [Mars]
-    (Storage)
-```
-
 *   **Mars (TrueNAS):** The primary storage engine. Bulk ZFS datasets, backups, and media library.
 *   **Saturn (FreeBSD 15):** The CI/CD Core. Runs Gitea, Woodpecker, and DNS.
 *   **Jupiter (FreeBSD 15):** The heavy lifter. Runs local storage and media services.

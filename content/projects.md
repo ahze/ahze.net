@@ -8,6 +8,9 @@ summary: "projects"
 ## Active Projects
 
 ### [Daemonless](https://daemonless.io)
+
+<img src="https://daemonless.io/assets/daemonless-logo.svg" width="200" alt="Daemonless Logo">
+
 **Native OCI Containers for FreeBSD.**
 Bringing the "Docker experience" to FreeBSD Jails using Podman, ocijail, and s6-overlay.
 - **Role:** Creator & Maintainer
