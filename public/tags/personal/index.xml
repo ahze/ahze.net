@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Personal on Michael Johnson</title>
-    <link>http://saturn:8833/tags/personal/</link>
+    <link>http://saturn.lan:8833/tags/personal/</link>
     <description>Recent content in Personal on Michael Johnson</description>
     <image>
       <title>Michael Johnson</title>
-      <url>http://saturn:8833/images/profile.jpg</url>
-      <link>http://saturn:8833/images/profile.jpg</link>
+      <url>http://saturn.lan:8833/images/profile.jpg</url>
+      <link>http://saturn.lan:8833/images/profile.jpg</link>
     </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 15:00:00 -0500</lastBuildDate>
-    <atom:link href="http://saturn:8833/tags/personal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://saturn.lan:8833/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Back on the Net</title>
-      <link>http://saturn:8833/posts/back-on-the-net/</link>
+      <link>http://saturn.lan:8833/posts/back-on-the-net/</link>
       <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/posts/back-on-the-net/</guid>
+      <guid>http://saturn.lan:8833/posts/back-on-the-net/</guid>
       <description>&lt;p&gt;I have owned &lt;strong&gt;ahze.net&lt;/strong&gt; for a very long time.&lt;/p&gt;
 &lt;p&gt;For most of that time, this domain has been a quiet corner of the internet—mostly used for internal lab services, mail, or just sitting idle. I&amp;rsquo;ve rarely had anything public-facing or inviting for the outside world to see.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;I&amp;rsquo;m changing that today.&lt;/strong&gt;&lt;/p&gt;

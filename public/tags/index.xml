@@ -2,78 +2,78 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Michael Johnson</title>
-    <link>http://saturn:8833/tags/</link>
+    <link>http://saturn.lan:8833/tags/</link>
     <description>Recent content in Tags on Michael Johnson</description>
     <image>
       <title>Michael Johnson</title>
-      <url>http://saturn:8833/images/profile.jpg</url>
-      <link>http://saturn:8833/images/profile.jpg</link>
+      <url>http://saturn.lan:8833/images/profile.jpg</url>
+      <link>http://saturn.lan:8833/images/profile.jpg</link>
     </image>
     <generator>Hugo -- 0.154.5</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 13 Jan 2026 16:00:00 -0500</lastBuildDate>
-    <atom:link href="http://saturn:8833/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://saturn.lan:8833/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Daemonless</title>
-      <link>http://saturn:8833/tags/daemonless/</link>
+      <link>http://saturn.lan:8833/tags/daemonless/</link>
       <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/daemonless/</guid>
+      <guid>http://saturn.lan:8833/tags/daemonless/</guid>
       <description></description>
     </item>
     <item>
       <title>Freebsd</title>
-      <link>http://saturn:8833/tags/freebsd/</link>
+      <link>http://saturn.lan:8833/tags/freebsd/</link>
       <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/freebsd/</guid>
+      <guid>http://saturn.lan:8833/tags/freebsd/</guid>
       <description></description>
     </item>
     <item>
       <title>Projects</title>
-      <link>http://saturn:8833/tags/projects/</link>
+      <link>http://saturn.lan:8833/tags/projects/</link>
       <pubDate>Tue, 13 Jan 2026 16:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/projects/</guid>
+      <guid>http://saturn.lan:8833/tags/projects/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://saturn:8833/tags/hugo/</link>
+      <link>http://saturn.lan:8833/tags/hugo/</link>
       <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/hugo/</guid>
+      <guid>http://saturn.lan:8833/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Personal</title>
-      <link>http://saturn:8833/tags/personal/</link>
+      <link>http://saturn.lan:8833/tags/personal/</link>
       <pubDate>Tue, 13 Jan 2026 15:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/personal/</guid>
+      <guid>http://saturn.lan:8833/tags/personal/</guid>
       <description></description>
     </item>
     <item>
       <title>Homelab</title>
-      <link>http://saturn:8833/tags/homelab/</link>
+      <link>http://saturn.lan:8833/tags/homelab/</link>
       <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/homelab/</guid>
+      <guid>http://saturn.lan:8833/tags/homelab/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure</title>
-      <link>http://saturn:8833/tags/infrastructure/</link>
+      <link>http://saturn.lan:8833/tags/infrastructure/</link>
       <pubDate>Mon, 12 Jan 2026 10:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/infrastructure/</guid>
+      <guid>http://saturn.lan:8833/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>Opinion</title>
-      <link>http://saturn:8833/tags/opinion/</link>
+      <link>http://saturn.lan:8833/tags/opinion/</link>
       <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/opinion/</guid>
+      <guid>http://saturn.lan:8833/tags/opinion/</guid>
       <description></description>
     </item>
     <item>
       <title>Os</title>
-      <link>http://saturn:8833/tags/os/</link>
+      <link>http://saturn.lan:8833/tags/os/</link>
       <pubDate>Sun, 11 Jan 2026 09:00:00 -0500</pubDate>
-      <guid>http://saturn:8833/tags/os/</guid>
+      <guid>http://saturn.lan:8833/tags/os/</guid>
       <description></description>
     </item>
   </channel>
