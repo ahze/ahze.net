@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: http://saturn.lan:8833/sitemap.xml

@@ -40,6 +40,9 @@ params:
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   ShowBreadCrumbs: true
+
+  mermaid:
+    enable: true
   
   assets:
     favicon: "/favicon.ico"
