@@ -17,7 +17,7 @@ I've been running containers on FreeBSD for a while now, and I've settled into a
 | **Orchestration** | Ansible |
 | **Images** | Daemonless (FreeBSD-native) |
 | **Storage** | ZFS (lz4 compression) |
-| **Networking** | VNET jails + macvlan |
+| **Networking** | VNET jails + bridge |
 
 No Docker daemon. No Linux VMs. Podman talks to ocijail, which runs containers as native FreeBSD jails.
 
@@ -93,9 +93,9 @@ That's the actual playbook. The MAC address scheme (`0e:05:00:00:00:0a`) maps to
 
 This is where FreeBSD containers get interesting. Each container is a real VNET jail with its own network stack.
 
-### The Simple Way: CNI/macvlan
+### The Simple Way: CNI/bridge
 
-On jupiter, I use Podman's CNI networking with macvlan. The container gets a real IP on the VLAN:
+On jupiter, I use Podman's CNI networking with bridge. The container gets a real IP on the VLAN:
 
 ```mermaid
 flowchart TB
@@ -103,7 +103,7 @@ flowchart TB
         radarr["radarr<br/>.5.10"]
         sonarr["sonarr<br/>.5.12"]
         prowlarr["prowlarr<br/>.5.14"]
-        vlan["vlan5 (macvlan)<br/>192.168.5.0/24"]
+        vlan["vlan5 (bridge)<br/>192.168.5.0/24"]
         radarr --- vlan
         sonarr --- vlan
         prowlarr --- vlan
