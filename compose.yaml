@@ -1,6 +1,6 @@
 services:
   blog:
-    image: localhost/hugo:latest
+    image: ghcr.io/daemonless/hugo:latest
     container_name: ahze-blog
     environment:
       - PUID=1001
