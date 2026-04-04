@@ -41,7 +41,7 @@ We install exactly one package: `s6`. Nothing more.
 
 **`s6-log` (The Archivist):** We skip the complexity of a full syslog. Instead, we pipe service output into `s6-log` via our `s6-log-helper` wrapper, which handles rotation, file sizing, and optionally mirrors output to stdout so `podman logs` still works. Logs land in `/config/logs/daemonless/<service>/` with configurable size and file count limits via environment variables.
 
-**`s6-setuidgid` (The Identity Layer):** Services never run as root. Every `run` script drops privileges with `s6-setuidgid bsd` before executing the application. The `bsd` user is UID/GID 1000 — consistent across all images, matching the convention for self-hosted setups where the host user is typically UID 1000 as well.
+**`s6-setuidgid` (The Identity Layer):** Services never run as root. Every `run` script drops privileges with `s6-setuidgid bsd` before executing the application. The `bsd` user defaults to UID/GID 1000 — consistent across all images, matching the convention for self-hosted setups where the host user is typically UID 1000 as well. If your setup uses a different UID or GID, set `PUID` and `PGID` environment variables and the init phase will remap `bsd` accordingly before any service starts.
 
 ### Log Files and the TAI64N Rabbit Hole
 
