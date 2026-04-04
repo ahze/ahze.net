@@ -1,0 +1,43 @@
+/* Mermaid diagrams: strip code-block chrome and scale to column width */
+pre.mermaid {
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+pre.mermaid svg {
+    max-width: 100% !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+/* Side-by-side mermaid + explanation layout */
+.mermaid-split {
+    display: grid;
+    grid-template-columns: minmax(0, 220px) 1fr;
+    gap: 2rem;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+.mermaid-split pre.mermaid {
+    padding: 0;
+}
+
+.mermaid-split .mermaid-steps ol {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.mermaid-split .mermaid-steps li {
+    margin-bottom: 0.6rem;
+    line-height: 1.5;
+}
+
+@media (max-width: 640px) {
+    .mermaid-split {
+        grid-template-columns: 1fr;
+    }
+}
