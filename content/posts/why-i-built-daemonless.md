@@ -28,7 +28,7 @@ I built **[Daemonless](https://daemonless.io)** to provide a polished, "Docker-l
 *   **Native Performance.**
 *   **Real FreeBSD Jails under the hood.**
 
-It isn't just a tech demo; it's a full fleet of high-quality images (Radarr, Sonarr, Traefik, etc.) built with `s6-overlay` for supervision and proper user mapping (`PUID`/`PGID`).
+It isn't just a tech demo; it's a full fleet of high-quality images (Radarr, Sonarr, Traefik, etc.) built with `s6` for supervision and proper user mapping (`PUID`/`PGID`).
 
 My goal is simple: **Make "Docker on FreeBSD" as boring and reliable as it is on Linux.**
 
