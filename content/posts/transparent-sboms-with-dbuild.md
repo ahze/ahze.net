@@ -17,7 +17,7 @@ When building native FreeBSD OCI images at [Daemonless](https://daemonless.io), 
 
 Rather than forcing users into a single vendor format, `dbuild` queries package manifests directly from the FreeBSD package manager (`pkg`) during container assembly and outputs three distinct SBOM representations:
 
-1. **CycloneDX (v1.5 JSON):** The OWASP industry standard designed specifically for application security, dependency analysis, and automated vulnerability scanning.
+1. **CycloneDX (v1.6 JSON):** The OWASP industry standard designed specifically for application security, dependency analysis, and automated vulnerability scanning.
 2. **SPDX (2.3 JSON):** The ISO/IEC 5962:2021 standard format tailored for license compliance and enterprise auditing.
 3. **Daemonless Native JSON:** A lightweight, human-readable manifest optimized for fast local inspection.
 
