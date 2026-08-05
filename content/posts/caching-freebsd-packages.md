@@ -22,21 +22,22 @@ You can get your own cache running across your network in three simple steps.
 ```bash
 pkg install -y podman
 ```
+*(Note: By using `--network host` in the next step, this works out-of-the-box with zero firewall/NAT configuration. If you prefer isolated bridged networks, see the [Quick Start Guide](https://daemonless.io/guides/quick-start/#2-configure-firewall-pfconf) for the required `pf.conf` setup).*
 
 **2. Run the cache appliance**
 ```bash
 podman run -d --name pkg-cache \
   --restart unless-stopped \
-  -p 80:80 -p 7890:7890 \
+  --network host \
   -v /containers/pkg-cache/cache:/cache \
   -e PKG_UPSTREAM=pkg.FreeBSD.org \
   -e PKG_CACHE_SIZE=50g \
   ghcr.io/daemonless/pkg-cache:latest
 ```
-*(Note: A live traffic dashboard is enabled by default on port `7890`. If you are deploying this in a public setting like a conference LAN, you might want to disable it by passing `-e ENABLE_STATS=false` and removing the port mapping).*
+*(Note: A live traffic dashboard is available at `http://<cache-ip>:7890`. If deploying in a public setting, disable it by passing `-e ENABLE_STATS=false`).*
 
 **3. Point your hosts at the cache**
-The cache automatically serves its own configuration file. Save this to `/usr/local/etc/pkg/repos/FreeBSD.conf` (or simply visit `http://<cache-ip>` in your browser to copy the snippet):
+The cache automatically serves its own configuration file on port `80`. Save this to `/usr/local/etc/pkg/repos/FreeBSD.conf` (or simply visit `http://<cache-ip>:80` in your browser to copy the snippet):
 
 ```ini
 FreeBSD: {
