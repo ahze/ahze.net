@@ -16,47 +16,41 @@ Here is the quick guide to getting your own cache running in seconds, followed b
 
 ## TL;DR: Quick Start Deployment
 
-You can deploy `daemonless/pkg-cache` immediately using Podman Compose (or Docker Compose):
+You can get your own cache running across your network in three simple steps.
 
-```yaml
-services:
-  pkg-cache:
-    image: "ghcr.io/daemonless/pkg-cache:latest"
-    container_name: pkg-cache
-    environment:
-      - TZ=UTC
-      - PKG_UPSTREAM=pkg.FreeBSD.org
-      - PKG_CACHE_SIZE=50g
-      - ENABLE_STATS=true
-    volumes:
-      - "/containers/pkg-cache:/config"
-      - "/containers/pkg-cache/cache:/cache"
-    ports:
-      - "80:80"
-      - "7890:7890"
-    restart: unless-stopped
+**1. Install Podman** (if you haven't already)
+```bash
+pkg install -y podman
 ```
 
-*(Check out the [full documentation on daemonless.io](https://daemonless.io/images/pkg-cache/) for AppJail and Ansible deployment examples).*
+**2. Run the cache appliance**
+```bash
+podman run -d --name pkg-cache \
+  --restart unless-stopped \
+  -p 80:80 -p 7890:7890 \
+  -v /containers/pkg-cache/cache:/cache \
+  -e PKG_UPSTREAM=pkg.FreeBSD.org \
+  -e PKG_CACHE_SIZE=50g \
+  ghcr.io/daemonless/pkg-cache:latest
+```
+*(Note: A live traffic dashboard is enabled by default on port `7890`. If you are deploying this in a public setting like a conference LAN, you might want to disable it by passing `-e ENABLE_STATS=false` and removing the port mapping).*
 
-## Pointing Hosts & Jails at the Cache
-
-Configuring any standard FreeBSD host or jail to use your cache takes a single configuration file. Drop this snippet into `/usr/local/etc/pkg/repos/FreeBSD.conf`:
+**3. Point your hosts at the cache**
+The cache automatically serves its own configuration file. Save this to `/usr/local/etc/pkg/repos/FreeBSD.conf` (or simply visit `http://<cache-ip>` in your browser to copy the snippet):
 
 ```ini
 FreeBSD: {
-  url: "pkg+http://pkg-cache.lan/${ABI}/quarterly",
+  url: "pkg+http://<cache-ip>/${ABI}/quarterly",
   mirror_type: "none",
   signature_type: "fingerprints",
-  fingerprints: "/usr/share/keys/pkg",
-  enabled: yes
+  fingerprints: "/usr/share/keys/pkg"
 }
 ```
 
-Replace `pkg-cache.lan` with the hostname or IP of your cache instance (and change `quarterly` to `latest` if you track the rolling branch).
-
 > **IMPORTANT: Why `mirror_type: "none"` is Mandatory**
 > By default, FreeBSD uses SRV or HTTP redirect mirrors (`mirror_type: "srv"`). If left at default, `pkg` queries DNS SRV records and follows redirects straight past your proxy back to external mirrors. Setting `mirror_type: "none"` forces the client to fetch strictly from the URL specified.
+
+*(Prefer Compose, AppJail, or Ansible? Check out the [full documentation on daemonless.io](https://daemonless.io/images/pkg-cache/)).*
 
 ---
 
